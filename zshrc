@@ -70,3 +70,4 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
+alias serve='ruby -run -e httpd . -p 8000'
